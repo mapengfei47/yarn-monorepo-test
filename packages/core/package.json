@@ -1,18 +1,19 @@
 {
   "name": "@allan-yarn/core",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "devDependencies": {},
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-   "publishConfig": {
+  "publishConfig": {
     "access": "public"
   }
 }
