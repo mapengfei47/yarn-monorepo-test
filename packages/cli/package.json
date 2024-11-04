@@ -1,0 +1,25 @@
+{
+  "name": "@allan-yarn/cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "calc": "dist/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "@allan-yarn/core": "1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
